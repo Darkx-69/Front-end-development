@@ -1,42 +1,62 @@
 .thumbnail{
-    width:300px;
-    display: block;
+    width:100%;
     margin-bottom: 0;
     
 ;}
+
 p{font-family: Roboto,Arial;
    
     margin-bottom:0;
     margin-top:0;}
-.Search{ display: block;
-    font-size: 20px;
-    margin-bottom:0;
-    margin-top:0;
-    
-    
-    
-}
-.a{width: 200px;
-display: inline-block;
-vertical-align: top;
+
+.a{width: 210px;
 font-size: 14px;
 font-weight: 500;
 margin-top: 12px;
 
 }
-.video-preview{ display: inline-block;
-width: 300 px;
-vertical-align: top;
-margin-right: 15px;
+.video-preview{
 margin-top: 20 px;}
 .channel_image{ 
     margin-top: 10px; 
+    margin-right: 10px;
    width:30px;
 border-radius: 15px;
 vertical-align:top ;}
 .b{display: inline-block;}
-.video-Author{font-size: 12px;
-margin-top: 10px;
-vertical-align: top;
-}
+.video-Author,.video-stats{font-size: 12px;
+    color: rgb(96,96,96);}
+    .video-Author{margin-bottom: 4px;
+    vertical-align: top;
+    margin-top: 12px;}
+.video-Author1,.video-stats1{font-size: 12px;
+    color: rgb(96,96,96);
+  
 
+}
+.video-Author1{margin-top: 29px;
+
+}
+.video-stats1{margin-top: 4px;}
+.c{display: grid;
+grid-template-columns: 50px 1fr;}
+.youtube{display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+row-gap: 40px;}
+
+.Timestamps{
+  font-family: Roboto,Arial;
+  font-size: 12px;
+  font-weight: 500;
+    position: absolute;
+background-color: black;
+color: white;
+bottom: 8px;
+right: 5px;
+padding-left: 4px;
+padding-right: 4px;
+padding-top: 4px;
+padding-bottom: 4px;
+border-radius: 2px;}
+.aman{position: relative;}
